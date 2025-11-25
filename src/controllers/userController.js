@@ -1,5 +1,4 @@
 const { query } = require('../config/database');
-const asyncHandler = require('../middlewares/asyncHandler');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const messages = require('../constants/messages'); 
